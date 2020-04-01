@@ -4,6 +4,7 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
 }
 
 header, nav, section, aside, footer {
@@ -15,36 +16,56 @@ header, nav, section, aside, footer {
 aside {
     float: right;
     width: 450px;
-    height: 197px;
+    height: 300px;
+    margin-bottom: 20px;
     
 
 }
 
 nav {
-    padding: 20px 0px 20px 0px;
+    padding: 30px 0px 30px 0px;
 }
 
 
 article {
-    color: #777;
+    color: #ebebeb;
+    background: #777;
+    padding: 6px 20px 10px 20px;
+    margin: 0px 8px 8px 8px;
+    
 }
 
 h1, p {
-    color: 777;
+    color: #777;
     background: #ebebeb; 
+    margin: 10px 0px 10px 0px;
 }
 
 section {
     width: 495px;
     float: left;
+    margin-bottom: 20px;
+    height: 
 }
 
 header {
-    padding: 20px 0px 20px 0px;  
+    padding: 30px 0px 30px 0px;  
 }
 
 footer {
-    padding: 20px 0px 20px 0px;
+    padding: 5px 0px 5px 0px;
     clear: both;
+    
+}
+
+h4 {
+    background: #ebebeb; 
+    color: #777; 
+    padding: 15px 0px 15px 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+p {
+    padding: 15px 0px 15px 0px;
 }
 
