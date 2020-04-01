@@ -7,12 +7,14 @@ body {
     margin: auto;
 }
 
+/*margin top, right, bottom, left*/
 header, nav, section, aside, footer {
     background: #ebebeb;
     text-align: center;
     margin: 10px 0px 10px 0px;
 }
 
+/*Float is used to allow content to wrap (like words around a pic in Word). For ex: chat boxes in the corner of a webpage.*/ 
 aside {
     float: right;
     width: 450px;
@@ -22,6 +24,7 @@ aside {
 
 }
 
+/* padding top, right, bottom, left. Padding is the distance from the content (ex: words) to the border.*/ 
 nav {
     padding: 30px 0px 30px 0px;
 }
@@ -44,20 +47,23 @@ h1, p {
 section {
     width: 495px;
     float: left;
-    margin-bottom: 20px;
-    height: 
+    margin-bottom: 20px; 
 }
 
 header {
     padding: 30px 0px 30px 0px;  
 }
 
+/*My footer refused to stay in the proper space. By useing clear, it forced my 
+footer to stay in it's own space. clear: both clears the floats from both sides.
+Putting clear: both in the footer, usually, keeps it at the bottom.*/
 footer {
     padding: 5px 0px 5px 0px;
     clear: both;
     
 }
 
+/*Added a small margin due to Chrome's own formatting.*/ 
 h4 {
     background: #ebebeb; 
     color: #777; 
@@ -68,4 +74,3 @@ h4 {
 p {
     padding: 15px 0px 15px 0px;
 }
-
